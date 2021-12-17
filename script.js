@@ -7,8 +7,9 @@ element2.style.backgroundColor = 'red';
 
 // Selecting the black as default
 function defaultSelected() {
-  const firstColor = document.querySelector('.color');
-  firstColor.classList.add('selected');
+  const colors = document.querySelectorAll('.color');
+  colors[0].classList.add('selected');
+  colors[1].classList.remove('selected');
 }
 
 // Create pixels board
