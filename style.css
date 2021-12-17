@@ -1,0 +1,113 @@
+body {
+  background-color: peachpuff;
+}
+
+.color {
+  height: 40px;
+  width: 40px;
+  /* float: left; */
+  border: 1px solid black;
+}
+
+.pixel {
+  height: 40px;
+  width: 40px;
+  float: left;
+  border: 1px solid black;
+  background-color: white;
+  text-align: center;
+}
+
+#color-palette {
+  width: 84px;
+  height: 40px;
+  margin: 40px auto 10px;
+}
+
+#pixel-board {
+  display: block;
+  margin-top: 20px;
+  border: 10px inset orangered;
+}
+
+h1{
+  text-shadow: 1px 1px 3px red;
+  text-align: center;
+  margin: 50px;
+}
+
+#statement {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  font-size: large;
+}
+
+#vqv-clean {
+  display: block;
+}
+
+#clear-board {
+  display: inline;
+  margin-left: 30px;
+}
+
+#path {
+  display: inline;
+  margin-left: 30px;
+}
+
+#dimension {
+  padding-top: 20px;
+  display: block;
+  width: 340px;
+  margin: 0 auto 30px;
+  font-size: large;
+}
+
+.path{
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+.black {
+  background-color: black;
+}
+
+#board-size {
+  width: 35px;
+}
+
+#smallBlack {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+}
+
+#smallRed {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: red;
+}
+
+#smallOrange {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-color: orange;
+}
+
+.selected {
+  border: 3px orange solid;
+}
+
+#board {
+  border: 10px inset orangered;
+  background-color: white;
+}
+/* border: 3px blue solid; */

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A maze in board</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1 id="title"> <span id="board">A maze in board</span> </h1>
+
+  <div id='statement'>Click in <div id="smallBlack" class="color"></div> and pint two targets. <br> Click in <div id="smallRed" class="color"></div> and pint the obstacles. <br> I will show you the <strong>shortest path!</strong> </div>
+
+  <div id="dimension">
+    Dimension:
+    <input id="board-size" type="number" min="1" value="5"><button id="generate-board">VQV</button>
+
+    <button id='clear-board'>Clean</button>
+
+    <button id='path'>Path</button>
+  </div>
+
+  <div id="fatherBoard">
+    <div id="pixel-board"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
