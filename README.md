@@ -28,13 +28,13 @@ HTML, CSS, JavaScript
 Clone o projeto
 
 ```bash
-  git clone https://link-para-o-projeto
+  git clone git@github.com:mpchristian/A-maze-in-board.git
 ```
 
 Entre no diretório do projeto
 
 ```bash
-  cd my-project
+  cd A-maze-in-board
 ```
 
 Abra o arquivo `index.html` com seu navegador. Caso utilize o Google Chrome,
